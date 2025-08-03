@@ -5,8 +5,8 @@ function App() {
  
   return (
     <div className="p-4 box-border">
-      <Accordian/>
-      {/* <StarRating/> */}
+      {/* <Accordian/> */}
+      <StarRating/>
     </div>
   )
 }
