@@ -1,6 +1,7 @@
 import StarRating from "./components/Star-Rating/StarRating.jsx"
 import Accordian from "./components/Accordian/Accordian.jsx"
 import RandomColorGenerator from "./components/Random-Color-Generator/RandomColorGenerator.jsx"
+import ImageSlider from "./components/Image-Slider/ImageSlider.jsx"
 
 function App() {
  
@@ -8,7 +9,8 @@ function App() {
     <div className="p-4 box-border">
       {/* <Accordian/> */}
       {/* <StarRating/> */}
-      <RandomColorGenerator/>
+      {/* <RandomColorGenerator/> */}
+      <ImageSlider/>
     </div>
   )
 }
