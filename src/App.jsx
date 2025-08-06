@@ -3,6 +3,7 @@ import Accordian from "./components/Accordian/Accordian.jsx"
 import RandomColorGenerator from "./components/Random-Color-Generator/RandomColorGenerator.jsx"
 import ImageSlider from "./components/Image-Slider/ImageSlider.jsx"
 import ImageSliderV2 from "./components/Image-Slider/ImageSliderV2.jsx"
+import LoadMoreButton from "./components/Load-More-Button/LoadMoreButton.jsx"
 
 function App() {
  
@@ -12,7 +13,8 @@ function App() {
       {/* <StarRating/> */}
       {/* <RandomColorGenerator/> */}
       {/* <ImageSlider/> */}
-      <ImageSliderV2/>
+      {/* <ImageSliderV2/> */}
+      <LoadMoreButton/>
     </div>
   )
 }
