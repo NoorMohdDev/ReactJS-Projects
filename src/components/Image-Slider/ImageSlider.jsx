@@ -58,7 +58,7 @@ function ImageSlider() {
         </div>
 
         <div>
-          {imagesData.map((data) => <span onClick={handleDot} className='cursor-pointer' data-id={data.id} key={data.id}>&#9673;</span>)}
+          {imagesData.map(data => <span onClick={handleDot} className={`cursor-pointer ${slideCurrent===Number(data.id)?"text-blue-400":""}`} data-id={data.id} key={data.id}>&#9673;</span>)}
 
         </div>
       </div> : <p className='mt-2 p-2 text-center'>Please wait Loading...</p>}

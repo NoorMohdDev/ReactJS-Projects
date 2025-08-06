@@ -2,6 +2,7 @@ import StarRating from "./components/Star-Rating/StarRating.jsx"
 import Accordian from "./components/Accordian/Accordian.jsx"
 import RandomColorGenerator from "./components/Random-Color-Generator/RandomColorGenerator.jsx"
 import ImageSlider from "./components/Image-Slider/ImageSlider.jsx"
+import ImageSliderV2 from "./components/Image-Slider/ImageSliderV2.jsx"
 
 function App() {
  
@@ -10,7 +11,8 @@ function App() {
       {/* <Accordian/> */}
       {/* <StarRating/> */}
       {/* <RandomColorGenerator/> */}
-      <ImageSlider/>
+      {/* <ImageSlider/> */}
+      <ImageSliderV2/>
     </div>
   )
 }
