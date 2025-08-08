@@ -5,6 +5,7 @@ import ImageSlider from "./components/Image-Slider/ImageSlider.jsx"
 import ImageSliderV2 from "./components/Image-Slider/ImageSliderV2.jsx"
 import LoadMoreButton from "./components/Load-More-Button/LoadMoreButton.jsx"
 import Dropdown from "./components/Dropdown/Dropdown.jsx"
+import QRGenerator from "./components/QR-Generator/QRGenerator.jsx"
 
 function App() {
  
@@ -16,7 +17,8 @@ function App() {
       {/* <ImageSlider/> */}
       {/* <ImageSliderV2/> */}
       {/* <LoadMoreButton/> */}
-      <Dropdown/>
+      {/* <Dropdown/> */}
+      <QRGenerator/>
     </div>
   )
 }
