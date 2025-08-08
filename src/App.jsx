@@ -4,6 +4,7 @@ import RandomColorGenerator from "./components/Random-Color-Generator/RandomColo
 import ImageSlider from "./components/Image-Slider/ImageSlider.jsx"
 import ImageSliderV2 from "./components/Image-Slider/ImageSliderV2.jsx"
 import LoadMoreButton from "./components/Load-More-Button/LoadMoreButton.jsx"
+import Dropdown from "./components/Dropdown/Dropdown.jsx"
 
 function App() {
  
@@ -14,7 +15,8 @@ function App() {
       {/* <RandomColorGenerator/> */}
       {/* <ImageSlider/> */}
       {/* <ImageSliderV2/> */}
-      <LoadMoreButton/>
+      {/* <LoadMoreButton/> */}
+      <Dropdown/>
     </div>
   )
 }
