@@ -7,11 +7,12 @@ import LoadMoreButton from "./components/Load-More-Button/LoadMoreButton.jsx"
 import Dropdown from "./components/Dropdown/Dropdown.jsx"
 import QRGenerator from "./components/QR-Generator/QRGenerator.jsx"
 import LightDarkMode from "./components/Light-Dark-Mode/LightDarkMode.jsx"
+import ScrollIndicator from "./components/Scroll-Indicator/ScrollIndicator.jsx"
 
 function App() {
  
   return (
-    <div className="box-border">
+    <div className=" w-full h-screen box-border">
       {/* <Accordian/> */}
       {/* <StarRating/> */}
       {/* <RandomColorGenerator/> */}
@@ -20,7 +21,8 @@ function App() {
       {/* <LoadMoreButton/> */}
       {/* <Dropdown/> */}
       {/* <QRGenerator/> */}
-      <LightDarkMode/>
+      {/* <LightDarkMode/> */}
+      <ScrollIndicator/>
     </div>
   )
 }
