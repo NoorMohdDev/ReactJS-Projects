@@ -6,11 +6,12 @@ import ImageSliderV2 from "./components/Image-Slider/ImageSliderV2.jsx"
 import LoadMoreButton from "./components/Load-More-Button/LoadMoreButton.jsx"
 import Dropdown from "./components/Dropdown/Dropdown.jsx"
 import QRGenerator from "./components/QR-Generator/QRGenerator.jsx"
+import LightDarkMode from "./components/Light-Dark-Mode/LightDarkMode.jsx"
 
 function App() {
  
   return (
-    <div className="p-4 box-border">
+    <div className="box-border">
       {/* <Accordian/> */}
       {/* <StarRating/> */}
       {/* <RandomColorGenerator/> */}
@@ -18,7 +19,8 @@ function App() {
       {/* <ImageSliderV2/> */}
       {/* <LoadMoreButton/> */}
       {/* <Dropdown/> */}
-      <QRGenerator/>
+      {/* <QRGenerator/> */}
+      <LightDarkMode/>
     </div>
   )
 }

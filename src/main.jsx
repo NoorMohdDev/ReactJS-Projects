@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './main.css';
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
-    <div className='flex w-100% h-100vh justify-center item-center'>
+    <div style={{height:"100vh", width:"100%"}} className='flex justify-center item-center'>
     <App />
     </div>
   // </StrictMode>,
