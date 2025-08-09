@@ -8,11 +8,12 @@ import Dropdown from "./components/Dropdown/Dropdown.jsx"
 import QRGenerator from "./components/QR-Generator/QRGenerator.jsx"
 import LightDarkMode from "./components/Light-Dark-Mode/LightDarkMode.jsx"
 import ScrollIndicator from "./components/Scroll-Indicator/ScrollIndicator.jsx"
+import CustomTabs from "./components/Custom-Tabs/CustomTabs.jsx"
 
 function App() {
  
   return (
-    <div className=" w-full h-screen box-border">
+    <div className="w-full h-screen box-border">
       {/* <Accordian/> */}
       {/* <StarRating/> */}
       {/* <RandomColorGenerator/> */}
@@ -22,7 +23,8 @@ function App() {
       {/* <Dropdown/> */}
       {/* <QRGenerator/> */}
       {/* <LightDarkMode/> */}
-      <ScrollIndicator/>
+      {/* <ScrollIndicator/> */}
+      <CustomTabs/>
     </div>
   )
 }
