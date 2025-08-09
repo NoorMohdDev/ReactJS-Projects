@@ -22,7 +22,7 @@ function CustomTabs() {
             <div className='bg-yellow-400 flex items-center justify-center py-2 gap-2'>
                 {
                     data.map(({ id, label }) =>
-                        <button className='rounded px-2 pb-1 bg-red-400 text-white' key={id} onClick={()=>{
+                        <button className={`rounded px-2 pb-1 ${currentTab===id?"bg-red-600":"bg-red-400"} text-white`} key={id} onClick={()=>{
                             handleTabs(id)
                         }} type="button">{label}</button>
                     )
