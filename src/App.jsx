@@ -9,6 +9,7 @@ import QRGenerator from "./components/QR-Generator/QRGenerator.jsx"
 import LightDarkMode from "./components/Light-Dark-Mode/LightDarkMode.jsx"
 import ScrollIndicator from "./components/Scroll-Indicator/ScrollIndicator.jsx"
 import CustomTabs from "./components/Custom-Tabs/CustomTabs.jsx"
+import CustomModal from "./components/Custom-Modal/CustomModal.jsx"
 
 function App() {
  
@@ -24,7 +25,8 @@ function App() {
       {/* <QRGenerator/> */}
       {/* <LightDarkMode/> */}
       {/* <ScrollIndicator/> */}
-      <CustomTabs/>
+      {/* <CustomTabs/> */}
+      <CustomModal/>
     </div>
   )
 }

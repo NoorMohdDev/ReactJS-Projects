@@ -1,1 +1,13 @@
 @import "tailwindcss";
+@theme {
+    --animate-popup: popup .5s;
+    @keyframes popup {
+      from{
+        opacity: 0;
+        top: -200px;
+      },
+      to {
+        opacity: 1;
+      }
+    }
+  }
