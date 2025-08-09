@@ -10,8 +10,8 @@ function LightDarkMode() {
   }
   return (
     <div className='p-2'>
-      <h1 className={`text-center ${theme==="light"?"text-white":"text-black"}`} >Light Dark Mode</h1>
-      <button onClick={handelToggleTheme} className={`border rounded ${theme==="light"?"text-black bg-white":"text-white bg-black"} px-1 p m-2`} type="button">Change Theme</button>
+      <h1 className={`text-center ${theme==="light"?"text-black":"text-white"}`} >Light Dark Mode</h1>
+      <button onClick={handelToggleTheme} className={`border rounded ${theme==="light"?"text-white bg-black":"text-black bg-white"} px-1 p m-2`} type="button">Change Theme</button>
     </div>
   )
 }
