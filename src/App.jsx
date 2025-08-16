@@ -10,11 +10,12 @@ import LightDarkMode from "./components/Light-Dark-Mode/LightDarkMode.jsx"
 import ScrollIndicator from "./components/Scroll-Indicator/ScrollIndicator.jsx"
 import CustomTabs from "./components/Custom-Tabs/CustomTabs.jsx"
 import CustomModal from "./components/Custom-Modal/CustomModal.jsx"
+import GithubProfileFinder from "./components/Github-Profile-Finder/GithubProfileFinder.jsx"
 
 function App() {
  
   return (
-    <div className="w-full h-screen box-border">
+    <div className="w-full flex justify-center h-screen box-border">
       {/* <Accordian/> */}
       {/* <StarRating/> */}
       {/* <RandomColorGenerator/> */}
@@ -26,7 +27,8 @@ function App() {
       {/* <LightDarkMode/> */}
       {/* <ScrollIndicator/> */}
       {/* <CustomTabs/> */}
-      <CustomModal/>
+      {/* <CustomModal/> */}
+      <GithubProfileFinder/>
     </div>
   )
 }
