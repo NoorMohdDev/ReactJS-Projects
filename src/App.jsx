@@ -12,6 +12,7 @@ import CustomTabs from "./components/Custom-Tabs/CustomTabs.jsx"
 import CustomModal from "./components/Custom-Modal/CustomModal.jsx"
 import GithubProfileFinder from "./components/Github-Profile-Finder/GithubProfileFinder.jsx"
 import SearchAutoComplete from "./components/Search-Auto-Complete/SearchAutoComplete.jsx"
+import TicTacToe from "./components/Tic-Tac-Toe/TicTacToe.jsx"
 
 function App() {
  
@@ -30,7 +31,8 @@ function App() {
       {/* <CustomTabs/> */}
       {/* <CustomModal/> */}
       {/* <GithubProfileFinder/> */}
-      <SearchAutoComplete/>
+      {/* <SearchAutoComplete/> */}
+      <TicTacToe/>
     </div>
   )
 }
