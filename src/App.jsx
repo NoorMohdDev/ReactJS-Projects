@@ -11,6 +11,7 @@ import ScrollIndicator from "./components/Scroll-Indicator/ScrollIndicator.jsx"
 import CustomTabs from "./components/Custom-Tabs/CustomTabs.jsx"
 import CustomModal from "./components/Custom-Modal/CustomModal.jsx"
 import GithubProfileFinder from "./components/Github-Profile-Finder/GithubProfileFinder.jsx"
+import SearchAutoComplete from "./components/Search-Auto-Complete/SearchAutoComplete.jsx"
 
 function App() {
  
@@ -28,7 +29,8 @@ function App() {
       {/* <ScrollIndicator/> */}
       {/* <CustomTabs/> */}
       {/* <CustomModal/> */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
+      <SearchAutoComplete/>
     </div>
   )
 }
