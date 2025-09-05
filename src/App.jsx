@@ -13,6 +13,11 @@ import CustomModal from "./components/Custom-Modal/CustomModal.jsx"
 import GithubProfileFinder from "./components/Github-Profile-Finder/GithubProfileFinder.jsx"
 import SearchAutoComplete from "./components/Search-Auto-Complete/SearchAutoComplete.jsx"
 import TicTacToe from "./components/Tic-Tac-Toe/TicTacToe.jsx"
+import FeatureFlag from "./components/feature-flag/FeatureFlag.jsx"
+import FeatureFlagGlobalState, { FeatureFlagContext } from "./components/feature-flag/context/index.jsx"
+import {UseFetchHookTest, UseOnclickOutsideTest,UseWindowResizeTest} from "./components/Custom-Hooks/CustomHooks.jsx"
+import ScrollToTopAndBottom from "./components/ScrollTopBottom/ScrollTopBottom.jsx"
+import ScrollToSection from "./components/ScrollIntoSection/ScrollIntoSection.jsx"
 
 function App() {
  
@@ -32,7 +37,15 @@ function App() {
       {/* <CustomModal/> */}
       {/* <GithubProfileFinder/> */}
       {/* <SearchAutoComplete/> */}
-      <TicTacToe/>
+      {/* <TicTacToe/> */}
+      {/* <FeatureFlagGlobalState>
+        <FeatureFlag/>
+      </FeatureFlagGlobalState> */}
+      {/* <UseFetchHookTest/> */}
+      {/* <UseOnclickOutsideTest/> */}
+      {/* <UseWindowResizeTest/> */}
+      {/* <ScrollToTopAndBottom/> */}
+      {/* <ScrollToSection/> */}
     </div>
   )
 }
