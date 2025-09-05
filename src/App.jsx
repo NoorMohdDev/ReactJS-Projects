@@ -18,9 +18,9 @@ import FeatureFlagGlobalState, { FeatureFlagContext } from "./components/feature
 import {UseFetchHookTest, UseOnclickOutsideTest,UseWindowResizeTest} from "./components/Custom-Hooks/CustomHooks.jsx"
 import ScrollToTopAndBottom from "./components/ScrollTopBottom/ScrollTopBottom.jsx"
 import ScrollToSection from "./components/ScrollIntoSection/ScrollIntoSection.jsx"
+import WeatherApp from "./components/WeatherApp/WeatherApp.jsx"
 
-function App() {
- 
+function App() { 
   return (
     <div className="w-full flex justify-center h-screen box-border">
       {/* <Accordian/> */}
@@ -46,6 +46,8 @@ function App() {
       {/* <UseWindowResizeTest/> */}
       {/* <ScrollToTopAndBottom/> */}
       {/* <ScrollToSection/> */}
+      {/* <WeatherApp/> */}
+      <WeatherApp/>
     </div>
   )
 }
